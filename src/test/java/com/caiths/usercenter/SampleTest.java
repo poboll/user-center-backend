@@ -1,14 +1,13 @@
 package com.caiths.usercenter;
 
 import com.caiths.usercenter.mapper.UserMapper;
-import com.caiths.usercenter.model.User;
+import com.caiths.usercenter.model.domain.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
